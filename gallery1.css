@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f2f2f2;
+    overflow: auto;
+    justify-content: center;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+h2{
+    font-style: oblique;
+    font-size: 2em;
+    color: rgb(3, 174, 43);
+    border-bottom: 3px solid black;
+    width: 100%;
+    padding-bottom: 2px;
+    text-align: center;
+}
+h2 span{
+    color: black;
+}
